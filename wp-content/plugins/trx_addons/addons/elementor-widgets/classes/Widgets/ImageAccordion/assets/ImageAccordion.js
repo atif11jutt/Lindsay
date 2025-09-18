@@ -31,7 +31,7 @@
 
                         holdItem.addClass('trx-addons-image-accordion-active');
                         holdItem.find('.trx-addons-image-accordion-content-wrap').addClass('trx-addons-image-accordion-content-active');
-                        holdItem.css('flex', '3');
+                        // holdItem.css('flex', '3');
                     }
                 }
             );
