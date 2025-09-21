@@ -1642,6 +1642,28 @@
 
 										<!-- gallery lines end -->
 
+										<style>
+											@media (max-width: 767px) {
+												.trx-addons-image-accordion-item {
+													border: 2px solid #000;
+												}
+												.trx-addons-image-accordion-item .trx-addons-image-accordion-item-inner{
+													transition: 0.3s;
+												}
+												.trx-addons-image-accordion-item:hover .trx-addons-image-accordion-item-inner,
+												.trx-addons-image-accordion-item:focus .trx-addons-image-accordion-item-inner{
+													transform: scale(1.2);
+												}
+
+												h1, h2, h3, .heading {
+													word-break: normal;       /* don't break words */
+													white-space: normal;      /* allow normal wrapping */
+													overflow-wrap: normal;    /* prevent mid-word breaks */
+													hyphens: none;            /* remove hyphens */
+												}
+											}
+										</style>
+
 									</div>
 									<div class="elementor-element elementor-element-dcb9531 e-flex e-con-boxed sc_layouts_column_icons_position_left e-con e-parent"
 										data-id="dcb9531" data-element_type="container">
